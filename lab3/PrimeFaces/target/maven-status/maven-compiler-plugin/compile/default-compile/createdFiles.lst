@@ -1,0 +1,4 @@
+view\menaged\Student.class
+com\mycompany\PrimeFaces\resources\JavaEE8Resource.class
+com\mycompany\PrimeFaces\JAXRSConfiguration.class
+view\menaged\ManagedBean.class
