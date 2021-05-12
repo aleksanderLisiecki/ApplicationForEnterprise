@@ -39,7 +39,7 @@ public class Main {
         //===== open complaint =====
         Complaint openComplaint = openComplaints(client).get(0);
         
-        System.out.println("First open complaint: " + openComplaint);
+        System.out.println("First open complaint: " + openComplaint.toString());
         
         
         //===== update that complaint =====
