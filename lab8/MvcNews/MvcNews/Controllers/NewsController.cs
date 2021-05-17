@@ -110,7 +110,7 @@ namespace MvcNews.Controllers
                     }
                     else
                     {
-                        ModelState.AddModelError("", "Error! \n Edited data has been modified or deleted by other user.");
+                        ModelState.AddModelError("", "Error! \n This data has been modified or deleted by other user.");
                         return View(newsItem);
                     }
                 }
