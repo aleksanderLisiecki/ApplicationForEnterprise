@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Nowy folder1\**" />
+    <Compile Remove="Nowy folder2\**" />
+    <Content Remove="Nowy folder1\**" />
+    <Content Remove="Nowy folder2\**" />
+    <EmbeddedResource Remove="Nowy folder1\**" />
+    <EmbeddedResource Remove="Nowy folder2\**" />
+    <None Remove="Nowy folder1\**" />
+    <None Remove="Nowy folder2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+
+</Project>
